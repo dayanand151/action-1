@@ -22,7 +22,7 @@ jobs:
         steps:
             - name: Echo Docker Details
               run: docker info
-
+              
             - name: Run Images on ${{ matrix.images }}
               run: docker run ${{ matrix.images }}
 
