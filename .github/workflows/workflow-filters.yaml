@@ -10,7 +10,7 @@ on:
         #     - test/**
         branches: 
             - main
-            - '!feature/*' # Ignore pushing to any branch name starting with feature using !
+            - '!feature/*' # Ignore pushing to any branch name starting with feature using !(exclamation)
     pull_request: 
         types: 
             - opened
